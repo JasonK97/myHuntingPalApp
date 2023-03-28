@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "myHuntingPalApp",
-    "slug": "myHuntingPalApp",
+    "slug": "my-hunting-pal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "534c371a-3703-42a3-baa6-a96aeb02819e"
+      }
+    },
+    "owner": "jasonk97"
   }
 }
