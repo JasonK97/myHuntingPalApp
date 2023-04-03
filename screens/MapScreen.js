@@ -1,26 +1,17 @@
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import {
-  Button,
   Image,
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-export default function HomeScreen({ navigation }) {
+export default function MapScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.pageTitle}>Welcome to My Hunting Pal</Text>
-      <Text style={styles.text}>Elevate your hunting experience</Text>
-      <Image
-        style={styles.image}
-        source={require('../assets/pictures/unsplash/hunter-brumels-JvfpHgIHmCQ-unsplash.jpg')}
-      />
-      <Button
-        title="Go to Map"
-        onPress={() => navigation.navigate('Map')}
-      />
+      <Text style={styles.pageTitle}>Welcome to the Map</Text>
+      
       <StatusBar style="auto" />
     </View>
   );
