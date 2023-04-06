@@ -17,10 +17,10 @@ export default function HomeScreen({ navigation }) {
         style={styles.image}
         source={require('../assets/pictures/unsplash/hunter-brumels-JvfpHgIHmCQ-unsplash.jpg')}
       />
-      <Button
+      {/* <Button
         title="Go to Map"
         onPress={() => navigation.navigate('Map')}
-      />
+      /> */}
       <StatusBar style="auto" />
     </View>
   );

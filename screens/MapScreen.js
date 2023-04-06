@@ -6,11 +6,12 @@ import {
   Text,
   View
 } from 'react-native';
+import MapView from 'react-native-maps';
 
 export default function MapScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.pageTitle}>Welcome to the Map</Text>
+      <MapView style={styles.map} />
       
       <StatusBar style="auto" />
     </View>
@@ -38,5 +39,9 @@ const styles = StyleSheet.create({
     width: 300,
     height: 150,
     borderRadius: 10,
+  },
+  map: {
+    width: '100%',
+    height: '100%',
   }
 });
